@@ -5,6 +5,10 @@ Base repo for code to clean and upload datasets for Longevity x AI Hackathon Jun
 
 Upload your dataset to our hugging face org!
 
+You can request to join the org as a contributor with ***REMOVED***
+
+For the duration of the hackathon we will provide you with a temporary write permission token (ask us) to accelerate the process.
+
 ```bash
 pip install datasets huggingface_hub
 huggingface-cli login # (Ask us for a temporary token)
