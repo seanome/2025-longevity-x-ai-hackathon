@@ -5,14 +5,16 @@ Base repo for code to clean and upload datasets for Longevity x AI Hackathon Jun
 
 Upload your dataset to our hugging face org!
 
-Structure your dataset like. We are requiring parquet as the final format for standardization.
-
+Structure your dataset something like:
 ```
 dataset_name/
-├── train.parquet
-├── test.parquet
+├── expression.parquet
+├── feature_metadata.parquet
+├── processing_script.py
 └── dataset_infos.json (optional)
-```
+``` 
+
+ℹ️ We are requiring parquet as the final format for standardization!
 
 Be sure to fill out the dataset card with details about where the data originated from!
 
