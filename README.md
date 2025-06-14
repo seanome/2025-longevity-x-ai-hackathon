@@ -5,22 +5,16 @@ Base repo for code to clean and upload datasets for Longevity x AI Hackathon Jun
 
 Upload your dataset to our hugging face org!
 
-Structure your dataset like
+Structure your dataset like. We are requiring parquet as the final format for standardization.
+
 ```
 dataset_name/
-├── train.csv
-├── test.csv
+├── train.parquet
+├── test.parquet
 └── dataset_infos.json (optional)
 ```
 
-Preferred formats:
-
-- CSV (.csv)
-- JSON (.json, .jsonl)
-- Parquet (.parquet) ← preferred for large/tabular data
-- Arrow (.arrow) ← internal optimized format
-- Text (.txt) for plain corpora
-- Image/audio/video files with metadata in .csv/.json
+Be sure to fill out the dataset card with details about where the data originated from!
 
 You can request to join the org as a contributor with ***REMOVED***
 
