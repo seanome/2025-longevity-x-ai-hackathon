@@ -34,3 +34,7 @@ Then you can interact with it like a normal git repo!
 ```bash
 git clone git://huggingface.co/datasets/longevity-db/test_dataset
 ```
+
+### Example HuggingFace Submission
+
+Here is an example of a nicely formatted HuggingFace submission: https://huggingface.co/datasets/longevity-db/tabula-muris-senis-bladder-smartseq2
