@@ -18,7 +18,7 @@ dataset_name/
 
 Be sure to fill out the dataset card with details about where the data originated from!
 
-You can request to join the org as a contributor with ***REMOVED***
+You can request to join the org as a contributor with REDACTED.
 
 For the duration of the hackathon we will provide you with a temporary write permission token (ask us) to accelerate the process.
 
